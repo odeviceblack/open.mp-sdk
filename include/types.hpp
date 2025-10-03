@@ -24,7 +24,7 @@
 #define OMP_BUILD_PLATFORM OMP_UNIX
 #endif
 
-#ifdef __arm__
+#ifdef __linux__
 #define __ATTRIBUTE__(x) __attribute__(x)
 #define __CDECL
 #else
